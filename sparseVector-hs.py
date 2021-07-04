@@ -1,9 +1,9 @@
 from typing import List
 
 """
-Time Complexity:
-    O(n) for creating the sparse vector
-    O(L + L2) for calculating the dot product
+Time Complexity: 
+    O(n) for creation
+    O(L) for calculating dot product where L = Length of the compressed vector
 """
 
 class SparseVector:
