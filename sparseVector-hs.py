@@ -1,4 +1,11 @@
 from typing import List
+
+"""
+Time Complexity:
+    O(n) for creating the sparse vector
+    O(L + L2) for calculating the dot product
+"""
+
 class SparseVector:
     def __init__(self, nums: List[int]):
         self.nonzeros = {}

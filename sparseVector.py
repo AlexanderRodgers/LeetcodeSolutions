@@ -1,3 +1,9 @@
+"""
+Time complexity:
+    O(n) for creating the sparse vector
+    O(n) for calculating the dot product
+"""
+
 class SparseVector:
     def __init__(self, nums):
         self.array = nums
